@@ -18,3 +18,8 @@ Vector Space Model
 > 计算Vocab中的词在文档中的TFIDF权重
 
 > 保存这些向量
+
+>版本
+------- 
+
+>>数据预处理完成
