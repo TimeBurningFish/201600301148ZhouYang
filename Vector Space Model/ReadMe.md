@@ -26,6 +26,8 @@ Vector Space Model
 
 - vocab建立√
 
-- 计算文档TF-IDF权值向量
+- 计算文档TF-IDF权值向量√
 
-- 储存向量
+- 储存向量√
+
+- 使用进度条进行时间可视化√
