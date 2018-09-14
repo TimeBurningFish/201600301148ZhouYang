@@ -23,6 +23,9 @@ Vector Space Model
 ------- 
 
 >>数据预处理完成√
+
 >>vocab建立√
+
 >>计算文档TF-IDF权值向量
+
 >>储存向量
