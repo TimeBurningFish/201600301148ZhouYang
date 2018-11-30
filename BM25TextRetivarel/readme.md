@@ -6,9 +6,15 @@
 
 ![BM25](https://i.loli.net/2018/11/30/5c0147e798b97.png)
 
-### MAP
+### MAP（Mean Average Precision）
+* 只有1和0,1 代表相关 ， 0代表不相关
+* Ap 某一次查询前 k 个里面查准率（precision）的均值（最终除以所有该类别的正确文档）
+* MAP 所有qury的均值
 
-### NDCG
+### NDCG（Normalized Discounted Cumulative Gain）
+* DCG 考虑不同的relevace值，并且计算rank值加权
+* DCG = ri/log(i) 其中ri代表从上到下第i个返回doc的相关度，i代表位置
+* NDCG 使用最大可能性进行归一化
 
 ## 过程
 
@@ -22,8 +28,8 @@
 ## 结果
 * 取 topk = 200
 
-| 表头信息 | mymodel  | 给定result
+|  | mymodel  | 给定result
 | ------ | ------ |-------|
 | Map | 0.56 | 0.76 |
-| Map | 0.67 | 0.78 |
+| NDCG | 0.67 | 0.78 |
 
