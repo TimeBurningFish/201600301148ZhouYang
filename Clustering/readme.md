@@ -2,7 +2,8 @@
 
 ## 思路
 
-* 构造tf-idf矩阵
+* 构建vocab
+* 构造每个文本段的tf-idf表示
 * 使用聚类算法（sklearn）
 > * K-means
 > * Affinity propagation
